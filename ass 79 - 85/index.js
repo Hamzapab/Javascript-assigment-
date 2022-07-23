@@ -1,0 +1,152 @@
+// // Exo 01 **********************************
+
+// // let member ={
+// //     name : "Elzero" ,
+// //     age : 38 ,
+// //     country : "Egypt",
+// //     fullDetails : function (){
+// //         return `My name is ${member.name}, My Age is ${member.age}, I live in ${this.country}`
+// //     },
+// // };
+
+// // console.log(member.name); // Elzero
+// // console.log(member.age); // 38
+// // console.log(member.country); // Egypt
+// // console.log(member.fullDetails());
+// // My Name Is Elzero, My Age Is 38, I Live in Egypt
+
+// // Exo 02 **********************************************
+// // Method One
+
+// let objMethodOne = {
+//     property : "Methode One",
+// }
+// console.log(objMethodOne.property); // "Method One"
+
+// // Method Two
+// let objMethodTwo = new Object({
+//     property : "Methode Two"
+// })
+
+// console.log(objMethodTwo.property); // "Method Two"
+
+// // Method Three
+// let objMethodThree = Object.create(objMethodOne);
+// objMethodThree.property = "Methode three"
+
+// console.log(objMethodThree.property); // "Method Three"
+
+// // Method Four
+// let obj = {};
+// let objMethodFour = Object.assign(obj, objMethodOne)
+// objMethodFour.property = "MEthode Four"
+
+// console.log(objMethodFour.property); // "Method Four"
+
+
+// // Exo 03 **************************************************
+// let a = 1;
+// let objo = new Object({
+//     a,
+// });
+// let threeNums = {
+//     b: 2,
+//     c: 3,
+//     d: 4,
+// };
+
+// let twoNums = {
+//     e: 5,
+//     f: 6,
+// };
+
+// let finalObject = Object.assign(objo,a , threeNums, twoNums)
+
+// console.log(finalObject);
+
+
+// //  Exo 04 ****************************************************
+
+// let myFavGames = {
+//     "Trinity Universe": {
+//     publisher: "NIS America",
+//     price: 40,
+//     },
+//     "Titan Quest": {
+//     publisher: "THQ",
+//     bestThree: {
+//         one: "Immortal Throne",
+//         two: "Ragnarök",
+//         three: "Atlantis",
+//     },
+//     price: 50,
+//     },
+//     YS: {
+//     publisher: "Falcom",
+//     bestThree: {
+//         one: "Oath in Felghana",
+//         two: "Ark Of Napishtim",
+//         three: "origin",
+//     },
+//     price: 40,
+//     },
+// };
+
+// // Code One => How To Get Object Length ?
+// let objectLength = Object.keys(myFavGames).length;
+// let objcarray = Object.keys(myFavGames);
+
+// for (let i = 0; i < objectLength; i++) {
+//     console.log(`The Game Name Is ${objcarray[i]}`);
+//     console.log(`The Publisher Is ${myFavGames[objcarray[i]].publisher}`);
+//     console.log(`The Price Is ${myFavGames[objcarray[i]].price}`);
+
+//     // Check If Nested Object Has Property (bestThree)
+//     if (Object.keys(myFavGames[objcarray[i]]).includes("bestThree") == true) {
+//     console.log("- Game Has Releases");
+//     console.log(`First => ${myFavGames[objcarray[i]].bestThree.one}`);
+//     console.log(`Second => ${myFavGames[objcarray[i]].bestThree.two}`);
+//     console.log(`Third => ${myFavGames[objcarray[i]].bestThree.three}`);
+//     }
+//     console.log("#".repeat(20));
+// }
+
+//   // Ouput
+
+// //   "The Game Name Is Trinity Universe"
+// //   "The Publisher Is NIS America"
+// //   "The Price Is 40"
+// //   "####################"
+// //   "The Game Name Is Titan Quest"
+// //   "The Publisher Is THQ"
+// //   "The Price Is 50"
+// //   "- Game Has Releases"
+// //   "First => Immortal Throne"
+// //   "Second => Ragnarök"
+// //   "Third => Atlantis"
+// //   "####################"
+// //   "The Game Name Is YS"
+// //   "The Publisher Is Falcom"
+// //   "The Price Is 40"
+// //   "- Game Has Releases"
+// //   "First => Oath in Felghana"
+// //   "Second => Ark Of Napishtim"
+// //   "Third => origin"
+// //   "####################"
+
+// video Number 90 *******************************
+for(i = 0; i <= 100; i++){
+    let myElement = document.createElement(`div`)
+let heading = document.createElement(`h3`)
+let para = document.createElement(`p`)
+let hText = document.createTextNode(`Hello , wellcome here ${i}`)
+let pText = document.createTextNode("Here You find all product")
+
+heading.appendChild(hText)
+para.appendChild(pText)
+document.body.appendChild(myElement)
+myElement.appendChild(heading)
+myElement.appendChild(para)
+}
+
+
