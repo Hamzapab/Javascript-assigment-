@@ -11,7 +11,7 @@
 
 
 
-// function addAndRemove() {
+// function addClasses() {
 // //   document.querySelectorAll("span").forEach((ele) => ele.remove());
 // for (let i = 0; i < this.value.split(" ").length; i++) {
 //     if (inputAdd.value.length > 0) {
@@ -25,7 +25,7 @@
 // this.value = "";
 // }
 
-// function addClassesToSpan() {
+// function addSpans() {
 // if (Current.classList.length === 0) {
 //     myDiv.textContent = "No Classes To Show";
 // } else {
@@ -38,9 +38,9 @@
 // });
 // }
 // }
-// addClassesToSpan();
-// inputAdd.onblur = addAndRemove;
-// inputRemove.onblur = addAndRemove;
+// addSpans();
+// inputAdd.onblur = addClasses;
+// inputRemove.onblur = addSpans;
 
 
 
