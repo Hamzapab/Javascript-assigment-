@@ -13,4 +13,4 @@ while (i < friends.length){
     console.log(`"${counter} => ${friends[i]}"`)
 }
 }
-// Exo 02
+
