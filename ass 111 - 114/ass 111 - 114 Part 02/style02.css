@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    background-color: rgb(115, 115, 177);
+    padding: 50px;
+    position: relative;
+}
+div{
+    font-size: 12px;
+    position: absolute;
+    background-color: rgb(214, 214, 110);
+    padding: 20px 10px;
+    height: 20px;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    display: none;
+}
+div::after{
+    content: '';
+    position: absolute;
+    border: 10px solid;
+    border-color: rgb(214, 214, 110)  transparent  transparent transparent ;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
