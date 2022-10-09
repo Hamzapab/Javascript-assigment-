@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "Name": "OAT",
+    "body": "Article Number 00 Body",
+    "section": "anime",
+    "adrees":"chtaybo",
+    "content" : "AOT is a great anime"
+  },
+  {
+    "id": "02",
+    "Name": "Luffy",
+    "body": "Article Number 01 Body",
+    "section": "anime",
+    "adrees":"japan",
+    "content" : "Luffy is a great anime"
+  },
+  {
+    "id": "03",
+    "Name": "Conan",
+    "body": "Article Number 02 Body",
+    "section": "anime",
+    "adrees":"jijel",
+    "content" : " Conan is a great anime"
+  },
+  {
+    "id": "04",
+    "Name": "bleach",
+    "body": "Article Number 03 Body",
+    "section": "anime",
+    "adrees":"Tyarat",
+    "content" : "Bleach is a great anime"
+  },
+  {
+    "id": "05",
+    "Name": "Naruto",
+    "body": "Article Number 04 Body",
+    "section": "anime",
+    "adrees":"mascara",
+    "content" : "Naruto is a great anime"
+  }
+]
